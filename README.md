@@ -29,26 +29,21 @@ docker build -t myname/flask-docker .
 docker run -p 5000:5000 myname/flask-docker
 
 
-
 Як закінчити роботу?
 
-1. Зупини сервер Flask (якщо він запущений, у терміналі натисни: Ctrl + C 👉 це зупинить python app.py)
+1. Зупини сервер Flask (якщо він запущений, Ctrl + C  зупинить python app.py)
 
-2. Закрий Docker контейнер (якщо запускала, подивись активні контейнери: docker ps )
+2. Закрий Docker контейнер (якщо запущений, то подивитись активні контейнери: docker ps,
+щоб побачити всі контейнери (навіть зупинені): docker ps -a )
 docker stop <container_id>
 
-Щоб побачити ВСІ контейнери (навіть зупинені): 
-docker ps -a
-
-3. Збережи всі файли
-
-4. Закоміть і запуш у GitHub 
+3. Збережи всі файли, закоміть і запуш у GitHub 
 У терміналі:
 git add .
 git commit -m "Finish Flask Docker project"
 git push
 
 5. Закрити Codespaces
-У браузері: 👉 натисни у верхньому лівому куті: ≡ (меню) → Codespaces → Stop Codespace
+у браузері:  ≡ (меню) → Codespaces → Stop Codespace
 або:
 зайди на GitHub Codespaces → Your codespaces натисни Stop
