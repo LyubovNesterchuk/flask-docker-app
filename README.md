@@ -1,6 +1,6 @@
-Створення проєкту
+#### Створення проєкту
 
-1.Створити проєкт у GitHub Codespaces.
+1. Створити проєкт у GitHub Codespaces.
 Створити файли: app.py, requirements.txt, Dockerfile
 
 2. Встановлення Flask
@@ -23,7 +23,7 @@ docker build -t myname/flask-docker .
 docker run -p 5000:5000 myname/flask-docker
 
 
-Як закінчити роботу?
+#### Як закінчити роботу?
 
 1. Зупини сервер Flask (якщо він запущений, Ctrl + C  зупинить python app.py)
 
