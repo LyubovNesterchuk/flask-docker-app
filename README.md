@@ -1,5 +1,3 @@
-# flask-docker-app
-
 Створення проєкту
 
 1.Створити проєкт у GitHub Codespaces.
@@ -40,7 +38,7 @@ docker stop <container_id>
 3. Збережи всі файли, закоміть і запуш у GitHub 
 У терміналі:
 git add .
-git commit -m "Finish Flask Docker project"
+git commit -m "..."
 git push
 
 5. Закрити Codespaces
