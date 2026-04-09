@@ -1,13 +1,9 @@
 Створення проєкту
 
 1.Створити проєкт у GitHub Codespaces.
-Створити файли:
-- `app.py`
-- `requirements.txt`
-- `Dockerfile`
+Створити файли: app.py, requirements.txt, Dockerfile
 
 2. Встановлення Flask
-```bash
 pip install flask
 
 3. Збереження залежностей
